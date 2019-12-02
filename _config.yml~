@@ -1,0 +1,16 @@
+# Setup
+title:                Learning-to-Hash
+tagline:             'a survey'
+description:         'A survey of academic research on hash function learning.'
+url:                 https://learning2hash.github.io
+baseurl:             ''
+disqus:
+  shortname: sjmoran
+collections:
+  publications:
+    output: true
+    permalink: /:collection/:path/
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag

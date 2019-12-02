@@ -1,0 +1,29 @@
+---
+layout: default
+title: Unsupervised Projection Models
+---
+<h2>Unsupervised Projection Models</h2>
+
+<b>Unsupervised Projection Models</b> are models that account for the distribution of the data in an unsupervised manner without the need manually acquired labels. They typically achieve this by using techniques that factorise the data covariance matrix or cluster related data-points into groups. These models generally exhibit a good retrieval effectiveness lying somewhere between the data independent and supervised models, but suffer from the considerable advantage of being computationally expensive at training time due to the matrix factorisation component.
+
+{% assign publicationsList = site.data.morantaxonomy | sort: "bibkey" %}
+<table id="patternModelTable">
+<thead><th>Name</th><th>Codebook</th><th>Architecture</th><th>Optimisation</th></thead>
+<tbody>
+{% for publication in publicationsList %}{% if publication.categories contains "unsupervised" %}
+    {% assign pubDetails = site.publications | where:"bibkey", publication.bibkey %}
+    
+      <tr>
+          <td data-order="{{publication.bibkey}}"><a href="/publications/{{publication.bibkey}}">{{pubDetails[0].authors}}, {{pubDetails[0].year}}.</a> {{pubDetails[0].title}}</td>
+          <td>{{publication.codebook}}</td>
+          <td>{{publication.type}}</td>
+          <td>{{publication.optimisation}}</td>
+      </tr>
+{% endif %}{% endfor %}
+</tbody></table>
+
+<script>
+$(document).ready( function () {
+    $('#patternModelTable').DataTable({paging: false,});
+} );
+</script>

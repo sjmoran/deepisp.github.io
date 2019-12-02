@@ -1,0 +1,32 @@
+---
+layout: default
+title: Quantisation Models
+---
+<h2>Binary Quantisation Models</h2>
+
+<b>Quantisation models</b> Two main categories of quantisation have been proposed for nearest neighbour search: <em>scalar</em> and <em>vector</em> quantisation, which are differentiated by whether the input and output of the quantisation is a scalar or a vector quantity. This page lists models for scalar quantisation. Scalar quantisation is frequently applied to
+quantise the real-values (projections) resulting from the dot product of the feature vector of each data-point onto the normal vectors to a set of hyperplanes partitioning the
+feature space. Each dot product yields a scalar
+value which is then subsequently quantised into binary (0/1) by thresholding. The resulting bits are concatenated to form the hashcode for a data-point.
+
+{% assign publicationsList = site.data.morantaxonomy | sort: "bibkey" %}
+<table id="reprModelTable">
+<thead><th>Paper</th><th>Codebook</th><th>Optimisation</th><th>Learning Type</th><th>#Thresholds</th></thead><tbody>
+{% for publication in publicationsList %}{% if publication.categories contains "quantisation" %}
+    {% assign pubDetails = site.publications | where:"bibkey", publication.bibkey %}
+    
+      <tr>
+          <td data-order="{{publication.bibkey}}"><a href="/publications/{{publication.bibkey}}">{{pubDetails[0].authors}}, {{pubDetails[0].year}}.</a>{{pubDetails[0].title}}</td>
+          <td>{{publication.codebook}}</td>
+          <td>{{publication.optimisation}}</td>
+          <td>{{publication.type}}</td>
+          <td>{{publication.thresholds}}</td>
+      </tr>
+{% endif %}{% endfor %}
+</tbody></table>
+
+<script>
+$(document).ready( function () {
+    $('#reprModelTable').DataTable({paging: false,});
+} );
+</script>
