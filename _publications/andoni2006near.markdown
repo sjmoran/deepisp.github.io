@@ -1,13 +1,22 @@
 ---
 layout: publication
-title: "Near-Optimal Hashing Algorithms for Approximate Nearest Neighbor in High Dimensions"
-authors: A. Andoni, P. Indyk
-conference: FOCS
-year: 2006
-bibkey: andoni2006near
+title: "Basis Prediction Networks for Effective Burst Denoising with Large Kernels"
+authors: Zhihao Xia, Federico Perazzi, Michaël Gharbi, Kalyan Sunkavalli, Ayan Chakrabarti
+conference: Arxiv
+year: 2019
+bibkey: xia2019basis
 additional_links:
-   - {name: "PDF", url: "http://ieeexplore.ieee.org/document/4031381/"}
-   - {name: "Code", url: "http://www.mit.edu/~andoni/LSH/"}
-   - {name: "Tutorial", url: "https://people.csail.mit.edu/indyk/p117-andoni.pdf"}
+   - {name: "PDF", url: "https://arxiv.org/pdf/1912.04421.pdf"}
+tags: ["Denoising", "Kernel Prediction Network", "Deep Learning"]
 ---
-We present an algorithm for the c-approximate nearest neighbor problem in a d-dimensional Euclidean space, achieving query time of O(dn 1c2/+o(1)) and space O(dn + n1+1c2/+o(1)). This almost matches the lower bound for hashing-based algorithm recently obtained in (R. Motwani et al., 2006). We also obtain a space-efficient version of the algorithm, which uses dn+n logO(1) n space, with a query time of dnO(1/c2). Finally, we discuss practical variants of the algorithms that utilize fast bounded-distance decoders for the Leech lattice
+Bursts of images exhibit significant self-similarity across
+both time and space. This motivates a representation of
+the kernels as linear combinations of a small set of basis
+elements. To this end, we introduce a novel basis prediction network that, given an input burst, predicts a set of
+global basis kernels — shared within the image — and the
+corresponding mixing coefficients — which are specific to
+individual pixels. Compared to other state-of-the-art deep
+learning techniques that output a large tensor of per-pixel
+spatiotemporal kernels, our formulation substantially reduces the dimensionality of the network output. This allows us to effectively exploit larger denoising kernels and
+achieve significant quality improvements (over 1dB PSNR)
+at reduced run-times compared to state-of-the-art methods.
