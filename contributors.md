@@ -11,7 +11,7 @@ This website accepts external [contributions](/contributing.html).
 Please, feel free to add your name below, once you contribute to this
 website.
 
-* [Fatih Cakir](http://cs-people.bu.edu/fcakir/)
+* Contributor 1
 * Contributor 2
 
 
