@@ -15,6 +15,10 @@ The reader is encouraged to further explore the following survey publications:
 * [Learning Binary Hash Codes for Large-Scale Image Search](http://www.cs.utexas.edu/~grauman/temp/GraumanFergus_Hashing_chapterdraft.pdf)
 * [Locality-Sensitive Hashing for Finding Nearest Neighbors](https://www.slaney.org/malcolm/yahoo/Slaney2008-LSHTutorial.pdf)
 
+### Workshops
+
+* [AIM workshop](http://www.vision.ee.ethz.ch/aim19/)
+
 ### Courses
 A few university courses are been taught covering aspects of machine of efficient computing. Below there are a few that have publicly available material.
 * [Extreme Computing](http://www.inf.ed.ac.uk/teaching/courses/exc/index_17-18.html) in University of Edinburgh.
