@@ -1,11 +1,2 @@
-# Quantisation Models
-
 # Supervised Projection Models
-- {bibkey: cakir2019hashing, categories: [supervised], codebook: Binary, modality: Unimodal, type: Deep, optimisation: Listwise Mutual Information loss}
-
-# Unsupervised Projection Models
-
-- {bibkey: xu2015convolutional, categories: [unsupervised], codebook: Binary, optimisation: Backpropagation, type: Deep, modality: Unimodal}
-
-# Data-Independent Projection Models
-- {bibkey: petrovic2010streaming, categories: [independent], type: Shallow, codebook: Binary, optimisation: Random Hyperplanes}
+- {bibkey: cakir2019hashing, categories: [supervised]}
