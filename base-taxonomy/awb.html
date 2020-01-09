@@ -11,7 +11,6 @@ title: Quantisation Models
 <thead><th>Paper</th></thead><tbody>
 {% for publication in publicationsList %}{% if publication.categories contains "awb" %}
     {% assign pubDetails = site.publications | where:"bibkey", publication.bibkey %}
-    
       <tr>
           <td data-order="{{publication.bibkey}}"><a href="/publications/{{publication.bibkey}}">{{pubDetails[0].authors}}, {{pubDetails[0].year}}.</a>{{pubDetails[0].title}}</td>
       </tr>
