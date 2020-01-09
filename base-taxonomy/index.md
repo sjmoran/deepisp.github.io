@@ -12,6 +12,6 @@ description: A taxonomy of deep learning models for the image signal processor (
 
  * [**Colour Mapping Models**](colourmap.html) 
  
- * [**Sharpening**](sharpening.html) 
+ * [**Sharpening**](sharpen.html) 
  
  * [**End-to-End**](endtoend.html) 
