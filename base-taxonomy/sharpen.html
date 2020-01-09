@@ -1,1 +1,25 @@
+---
+layout: default
+title: Sharpening
+---
+<h2>Sharpening</h2>
 
+<b>Sharpening</b> 
+
+{% assign publicationsList = site.data.morantaxonomy | sort: "bibkey" %}
+<table id="patternModelTable">
+<thead><th>Name</th></thead>
+<tbody>
+{% for publication in publicationsList %}{% if publication.categories contains "unsupervised" %}
+    {% assign pubDetails = site.publications | where:"bibkey", publication.bibkey %}
+      <tr>
+          <td data-order="{{publication.bibkey}}"><a href="/publications/{{publication.bibkey}}">{{pubDetails[0].authors}}, {{pubDetails[0].year}}.</a> {{pubDetails[0].title}}</td>
+      </tr>
+{% endif %}{% endfor %}
+</tbody></table>
+
+<script>
+$(document).ready( function () {
+    $('#patternModelTable').DataTable({paging: false,});
+} );
+</script>
