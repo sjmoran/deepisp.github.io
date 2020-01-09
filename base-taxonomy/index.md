@@ -6,7 +6,7 @@ description: A taxonomy of deep learning models for the image signal processor (
 
  * [**Demosaicing Models**](demosaicing.html) 
  
- * [**Denoising Models**](denosing.html) 
+ * [**Denoising Models**](denoising.html) 
  
  * [**Auto-White Balance (AWB) Models**](awb.html) 
 
