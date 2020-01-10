@@ -6,7 +6,7 @@ comments: true
 
 # Must Read Papers on Deep Learning for the Image Signal Processor (ISP)
 
-### Deep Learning for the Image Signal Processor (ISP): Overview
+### Overview
 
 The Image Singal Processor (ISP) is a fundamental processing pipeline in modern cameras and smartphones. The ISP is responsible for mapping RAW sensor data to a visually pleasing RGB image for end-user consumption. Typical stages in the pipleline include, but are not limited to, denoising, demosaicing, high-dynamic range compression, colour mapping, sharpening. The actual makeup of ISP pipelines are typically very closely guarded commercial secrets. 
 
