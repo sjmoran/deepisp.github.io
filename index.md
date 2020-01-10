@@ -12,6 +12,16 @@ The Image Signal Processor (ISP) is a fundamental processing pipeline in modern 
 
 Recently there has been great interest in the machine learning and computer vision research communities towards investigating how the aforementioned operations in the ISP could be replaced by deep neural networks. This website presents an ever-growing hand-curated selection of papers that leverage deep learning to greatly improve the image quality resulting from individual components of the ISP pipleline, and in a brave recent development, those papers that attempt to model the entire pipeline with a single deep neural network.  
 
+### Browse Papers by Tag
+
+{% assign rawtags = Array.new %}
+{% for publication in site.publications %}
+  {% assign ttags = publication.tags  %}  
+  {% assign rawtags = rawtags | concat: ttags %}  
+{% endfor %}
+{% assign rawtags = rawtags | uniq | sort %}
+{% for tag in rawtags %}<tag><a href="/tags.html#{{ tag }}">{{ tag }}</a></tag> {% endfor %}
+
 ### Contributing
 
 To add a new paper to the website simply create a markdown file and open a pull request in GitHub by following [these instructions for contributing](contributing.html).
