@@ -4,7 +4,7 @@ title: "A Multi-Hypothesis Approach to Color Constancy"
 authors: D. Hernandez-Juarez, S. Parisot, B. Busam, A. Leonardis, G. Slabaugh, S. McDonagh
 conference: CVPR
 year: 2020
-bibkey: hernandez2020cvpr
+bibkey: hernandezJuarez2020multihypothesis
 additional_links:
    - {name: "PDF", url: "https://openaccess.thecvf.com/content_CVPR_2020/papers/Hernandez-Juarez_A_Multi-Hypothesis_Approach_to_Color_Constancy_CVPR_2020_paper.pdf"}
    - {name: "Code", url: "https://github.com/huawei-noah/multi_hyp_cc/"}
