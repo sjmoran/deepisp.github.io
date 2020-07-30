@@ -25,5 +25,4 @@ formulated non-reference loss functions, which implicitly
 measure the enhancement quality and drive the learning
 of the network. Our method is efficient as image enhancement can be achieved by an intuitive and simple nonlinear
 curve mapping. Despite its simplicity, we show that it generalizes well to diverse lighting conditions. Extensive experiments on various benchmarks demonstrate the advantages of our method over state-of-the-art methods qualitatively and quantitatively. Furthermore, the potential benefits of our Zero-DCE to face detection in the dark are
-discussed. Code and model will be available at https:
-//github.com/Li-Chongyi/Zero-DCE
+discussed.
