@@ -8,8 +8,7 @@ bibkey: guo2020zero
 additional_links:
    - {name: "PDF", url: "https://arxiv.org/pdf/2001.06826.pdf"}
    - {name: "URL", url: "https://li-chongyi.github.io/Proj_Zero-DCE.html"}
-   
-tags: ["No Reference",  "Low-Light", "Image Enhancement", "Arxiv", "Curve Estimation"]
+tags: ["CVPR", "Image Enhancement", "Low-Light", "Deep Learning"]
 ---
 The paper presents a novel method, Zero-Reference
 Deep Curve Estimation (Zero-DCE), which formulates light
