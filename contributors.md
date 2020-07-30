@@ -11,7 +11,7 @@ This website accepts external [contributions](/contributing.html).
 Please, feel free to add your name below, once you contribute to this
 website.
 
-* Contributor 1
+* Steven McDonagh
 * Contributor 2
 
 
