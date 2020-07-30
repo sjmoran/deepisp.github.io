@@ -7,7 +7,7 @@ year: 2019
 bibkey: xia2019basis
 additional_links:
    - {name: "PDF", url: "https://arxiv.org/pdf/1912.04421.pdf"}
-tags: ["Denoising", "Kernel Prediction Network", "Deep Learning"]
+tags: ["Denoising", "Deep Learning"]
 ---
 Bursts of images exhibit significant self-similarity across
 both time and space. This motivates a representation of
