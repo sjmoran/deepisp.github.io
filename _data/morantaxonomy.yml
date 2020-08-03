@@ -3,6 +3,7 @@
 
 # End-to-End Models
 - {bibkey: moran2020curl, categories: [endtoend]}
+- {bibkey: triantafyllidou2020lowlight, categories: [endtoend]}
 
 # Colour Mapping Models
 - {bibkey: moran2020curl, categories: [colourmap]}
