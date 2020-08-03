@@ -10,7 +10,7 @@ title: Sharpening
 <table id="patternModelTable">
 <thead><th>Name</th></thead>
 <tbody>
-{% for publication in publicationsList %}{% if publication.categories contains "unsupervised" %}
+{% for publication in publicationsList %}{% if publication.categories contains "sharpen" %}
     {% assign pubDetails = site.publications | where:"bibkey", publication.bibkey %}
       <tr>
           <td data-order="{{publication.bibkey}}"><a href="/publications/{{publication.bibkey}}">{{pubDetails[0].authors}}, {{pubDetails[0].year}}.</a> {{pubDetails[0].title}}</td>
