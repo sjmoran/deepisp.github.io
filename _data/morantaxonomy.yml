@@ -1,2 +1,5 @@
-# Supervised Projection Models
-- {bibkey: cakir2019hashing, categories: [supervised]}
+# Denoising Models
+- {bibkey: marras2020reconstructing, categories: [denoising]}
+
+# AWB Models
+- {bibkey: hernandezJuarez2020multihypothesis, categories: [awb]}
