@@ -10,7 +10,7 @@ title: End-to-End (DeepISP)
 <table id="patternModelTable">
 <thead><th>Name</th></thead>
 <tbody>
-{% for publication in publicationsList %}{% if publication.categories contains "unsupervised" %}
+{% for publication in publicationsList %}{% if publication.categories contains "endtoend" %}
     {% assign pubDetails = site.publications | where:"bibkey", publication.bibkey %}
     
       <tr>
