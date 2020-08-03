@@ -1,6 +1,12 @@
 # Denoising Models
 - {bibkey: marras2020reconstructing, categories: [denoising]}
 
+# End-to-End Models
+- {bibkey: moran2020curl, categories: [endtoend]}
+
+# Colour Mapping Models
+- {bibkey: moran2020curl, categories: [colourmap]}
+
 # AWB Models
 - {bibkey: hernandezJuarez2020multihypothesis, categories: [awb]}
 - {bibkey: mcdonagh2019formulating, categories: [awb]}
