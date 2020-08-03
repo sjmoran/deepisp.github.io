@@ -7,6 +7,7 @@
 
 # Colour Mapping Models
 - {bibkey: moran2020curl, categories: [colourmap]}
+- {bibkey: moran2020deeplpf, categories: [colourmap]}
 
 # AWB Models
 - {bibkey: hernandezJuarez2020multihypothesis, categories: [awb]}
